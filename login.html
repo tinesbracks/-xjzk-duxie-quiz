@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录 - 新疆中考英语读写题核心训练</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .login-container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            padding: 50px;
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+        }
+        
+        .login-title {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .login-subtitle {
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+        
+        .login-form {
+            margin-bottom: 30px;
+        }
+        
+        .login-input {
+            width: 100%;
+            padding: 15px;
+            font-size: 1.5em;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            text-align: center;
+            letter-spacing: 10px;
+            margin-bottom: 20px;
+            transition: border-color 0.3s;
+        }
+        
+        .login-input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .login-button {
+            width: 100%;
+            padding: 15px;
+            font-size: 1.2em;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .login-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        .error-message {
+            color: #dc3545;
+            margin-top: 15px;
+            display: none;
+        }
+        
+        .hint {
+            color: #999;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1 class="login-title">🔐 登录</h1>
+        <p class="login-subtitle">新疆中考英语读写题核心训练系统</p>
+        
+        <div class="login-form">
+            <input type="text" id="access-code" class="login-input" placeholder="请输入6位登录码" maxlength="6">
+            <button class="login-button" onclick="checkLogin()">登录</button>
+        </div>
+        
+        <div id="error-message" class="error-message">
+            登录码错误，请重新输入！
+        </div>
+        
+        <div class="hint">
+            登录码由6位数字和字母组成（不区分大小写）
+        </div>
+
+        <div style="margin-top: 30px; text-align: center; color: white; font-size: 1.1em; opacity: 0.9;">
+            @新疆学生无限进步
+        </div>
+    </div>
+    
+    <script>
+        // 从服务器获取登录码列表
+        let accessCodes = [];
+        
+        // 页面加载时获取登录码
+        window.addEventListener('load', function() {
+            // 从JSON文件加载登录码
+            fetch('access_codes.json')
+                .then(response => response.json())
+                .then(data => {
+                    accessCodes = data;
+                    console.log('登录码加载成功，共', accessCodes.length, '个');
+                })
+                .catch(error => {
+                    console.error('加载登录码失败:', error);
+                    // 如果无法加载，使用默认值（不推荐）
+                    accessCodes = ['1D5561', '26FABG', '2OM8BD'];
+                });
+            
+            // 检查是否已经登录
+            const isLoggedIn = localStorage.getItem('isLoggedIn');
+            const loginTime = localStorage.getItem('loginTime');
+            
+            if (isLoggedIn === 'true' && loginTime) {
+                const currentTime = new Date().getTime();
+                const timeDiff = currentTime - parseInt(loginTime);
+                const hoursDiff = timeDiff / (1000 * 60 * 60);
+                
+                if (hoursDiff < 24) {
+                    window.location.href = 'index.html';
+                } else {
+                    localStorage.removeItem('isLoggedIn');
+                    localStorage.removeItem('loginTime');
+                }
+            }
+        });
+        
+        // 检查登录
+        function checkLogin() {
+            const inputCode = document.getElementById('access-code').value.trim().toUpperCase();
+            const errorMessage = document.getElementById('error-message');
+            
+            // 隐藏错误消息
+            errorMessage.style.display = 'none';
+            
+            // 检查是否输入了6位
+            if (inputCode.length !== 6) {
+                errorMessage.textContent = '请输入完整的6位登录码！';
+                errorMessage.style.display = 'block';
+                return;
+            }
+            
+            // 检查登录码是否有效（不区分大小写）
+            const isValid = accessCodes.some(code => code.toUpperCase() === inputCode);
+            
+            if (isValid) {
+                // 登录成功，保存登录状态
+                localStorage.setItem('isLoggedIn', 'true');
+                localStorage.setItem('loginTime', new Date().getTime().toString());
+                
+                // 跳转到主页
+                window.location.href = 'index.html';
+            } else {
+                // 登录失败
+                errorMessage.style.display = 'block';
+                document.getElementById('access-code').value = '';
+            }
+        }
+        
+        // 回车键登录
+        document.getElementById('access-code').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                checkLogin();
+            }
+        });
+    </script>
+</body>
+</html>

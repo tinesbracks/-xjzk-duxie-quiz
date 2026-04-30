@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>列表记忆 - 新疆中考英语读写题核心训练</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="auth.js"></script>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-btn">← 返回主页</a>
+        
+        <h2>📝 列表记忆</h2>
+        
+        <div class="progress-bar">
+            <div id="progress-fill" class="progress-fill" style="width: 0%;">0%</div>
+        </div>
+        <div id="progress-text" style="text-align: center; margin-bottom: 20px;">进度: 0/0 (0%)</div>
+        
+        <div class="filter-container">
+            <button class="btn btn-primary" onclick="showAll()">显示全部</button>
+            <button class="btn btn-success" onclick="showUnmastered()">只显示未掌握</button>
+            <button class="btn btn-danger" onclick="clearAll()">清除所有标记</button>
+            <button class="btn btn-info" onclick="shuffleList()">🔀 乱序</button>
+            <span style="margin-left: 20px;">共 <strong id="item-count">0</strong> 条</span>
+        </div>
+        
+        <div class="filter-container" style="margin-top: 10px;">
+            <span style="margin-right: 10px; font-weight: bold;">分类筛选：</span>
+            <button class="btn btn-secondary" onclick="filterByCategory('全部')">全部</button>
+            <button class="btn btn-secondary" onclick="filterByCategory('动作逻辑的转化')">动作逻辑</button>
+            <button class="btn btn-secondary" onclick="filterByCategory('形容词逻辑的转化')">形容词逻辑</button>
+            <button class="btn btn-secondary" onclick="filterByCategory('名词逻辑的转化')">名词逻辑</button>
+            <button class="btn btn-secondary" onclick="filterByCategory('逻辑词的替换')">逻辑词替换</button>
+            <button class="btn btn-secondary" onclick="filterByCategory('归纳范畴')">归纳范畴</button>
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 50px;">#</th>
+                    <th>原文表达</th>
+                    <th>题目表达</th>
+                    <th>中文释义</th>
+                    <th style="width: 100px;">已掌握</th>
+                </tr>
+            </thead>
+            <tbody id="vocabulary-table">
+                <!-- 数据将通过JS动态加载 -->
+            </tbody>
+        </table>
+        
+        <div style="margin-top: 30px; text-align: center;">
+            <button class="btn btn-primary" onclick="saveAndGoToFlashcards()" style="padding: 15px 40px; font-size: 18px;">
+                去卡片记忆 →
+            </button>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+    <script>
+        let vocabularyData = [];
+        let filteredData = [];
+        
+        // 加载数据
+        async function init() {
+            vocabularyData = await loadVocabularyData();
+            
+            // 尝试从 localStorage 加载进度
+            const progress = loadProgress();
+            if (progress) {
+                vocabularyData = mergeDataWithProgress(vocabularyData, progress);
+            }
+            
+            // 默认显示全部
+            showAll();
+        }
+        
+        // 显示全部
+        function showAll() {
+            filteredData = vocabularyData;
+            renderTable();
+        }
+        
+        // 只显示未掌握
+        function showUnmastered() {
+            filteredData = getUnmasteredItems(vocabularyData);
+            renderTable();
+        }
+        
+        // 按分类筛选
+        function filterByCategory(category) {
+            if (category === '全部') {
+                filteredData = vocabularyData;
+            } else {
+                filteredData = vocabularyData.filter(item => item.category === category);
+            }
+            renderTable();
+            showNotification(`已筛选: ${category}`);
+        }
+        
+        // 乱序
+        function shuffleList() {
+            filteredData = [...filteredData];
+            for (let i = filteredData.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [filteredData[i], filteredData[j]] = [filteredData[j], filteredData[i]];
+            }
+            renderTable();
+            showNotification('已乱序排列');
+        }
+        
+        // 渲染表格
+        function renderTable() {
+            const tbody = document.getElementById('vocabulary-table');
+            tbody.innerHTML = '';
+            
+            filteredData.forEach(item => {
+                const tr = document.createElement('tr');
+                tr.style.opacity = item.mastered ? '0.6' : '1';
+                
+                tr.innerHTML = `
+                    <td>${item.id}</td>
+                    <td><strong>${item.original}</strong></td>
+                    <td>${item.target}</td>
+                    <td>${item.meaning}</td>
+                    <td style="text-align: center;">
+                        <input type="checkbox" ${item.mastered ? 'checked' : ''} 
+                               onchange="toggleMastered(${item.id}, this.checked)">
+                    </td>
+                `;
+                
+                tbody.appendChild(tr);
+            });
+            
+            // 更新计数
+            document.getElementById('item-count').textContent = filteredData.length;
+            
+            // 更新进度条
+            const progress = calculateProgress(vocabularyData);
+            updateProgressBar(progress.total, progress.mastered);
+        }
+        
+        // 切换掌握状态
+        function toggleMastered(id, mastered) {
+            const item = vocabularyData.find(d => d.id === id);
+            if (item) {
+                item.mastered = mastered;
+                saveProgress(vocabularyData);
+                renderTable();
+                showNotification(mastered ? '已标记为掌握 ✓' : '已取消掌握标记');
+            }
+        }
+        
+        // 清除所有标记
+        function clearAll() {
+            if (confirm('确定要清除所有掌握标记吗？')) {
+                vocabularyData.forEach(item => {
+                    item.mastered = false;
+                });
+                saveProgress(vocabularyData);
+                showAll();
+                showNotification('已清除所有标记');
+            }
+        }
+        
+        // 保存到 localStorage 并跳转到卡片页面
+        function saveAndGoToFlashcards() {
+            saveProgress(vocabularyData);
+            window.location.href = 'flashcards.html';
+        }
+        
+        // 页面加载时初始化
+        init();
+    </script>
+</body>
+</html>

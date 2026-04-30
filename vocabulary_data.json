@@ -1,0 +1,2602 @@
+[
+  {
+    "id": 1,
+    "original": "decide to build",
+    "target": "make a decision to build",
+    "meaning": "做决定",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Zhou decided to build a library.",
+      "target_sentence": "Zhou made a ______ to build a library.",
+      "answer": "decision"
+    }
+  },
+  {
+    "id": 2,
+    "original": "choose",
+    "target": "make a choice",
+    "meaning": "做选择",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "You can choose any book you like.",
+      "target_sentence": "You can make a ______ of any book you like.",
+      "answer": "choice"
+    }
+  },
+  {
+    "id": 3,
+    "original": "visit a center",
+    "target": "pay a visit to a center",
+    "meaning": "参观/访问",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "I visited a protection center.",
+      "target_sentence": "I paid a ______ to a protection center.",
+      "answer": "visit"
+    }
+  },
+  {
+    "id": 4,
+    "original": "think of an idea",
+    "target": "come up with an idea",
+    "meaning": "想出/提出",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He thought of an idea.",
+      "target_sentence": "He ______ up with an idea.",
+      "answer": "came"
+    }
+  },
+  {
+    "id": 5,
+    "original": "join a group",
+    "target": "take part in / be a member of",
+    "meaning": "参加/成为成员",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "She joined a student group.",
+      "target_sentence": "She became a ______ of a student group.",
+      "answer": "member"
+    }
+  },
+  {
+    "id": 6,
+    "original": "realize a duty",
+    "target": "become aware of a duty",
+    "meaning": "意识到",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "I realized my duty.",
+      "target_sentence": "I became ______ of my duty.",
+      "answer": "aware"
+    }
+  },
+  {
+    "id": 7,
+    "original": "happen",
+    "target": "take place",
+    "meaning": "发生/举行",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "The event happens every year.",
+      "target_sentence": "The event ______ place every year.",
+      "answer": "takes"
+    }
+  },
+  {
+    "id": 8,
+    "original": "remember his words",
+    "target": "keep his words in mind",
+    "meaning": "牢记",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "I remember his words.",
+      "target_sentence": "I ______ his words in mind.",
+      "answer": "keep"
+    }
+  },
+  {
+    "id": 9,
+    "original": "die (death)",
+    "target": "pass away / lose one's life",
+    "meaning": "去世/牺牲",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "After he died, he left a book.",
+      "target_sentence": "After his ______, he left a book.",
+      "answer": "death"
+    }
+  },
+  {
+    "id": 10,
+    "original": "look after",
+    "target": "take care of",
+    "meaning": "照顾/照看",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Amy looks after the giraffes.",
+      "target_sentence": "Amy ______ care of the giraffes.",
+      "answer": "takes"
+    }
+  },
+  {
+    "id": 11,
+    "original": "start a journey",
+    "target": "set off / set out on a journey",
+    "meaning": "出发",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "They started their journey.",
+      "target_sentence": "They ______ out on their journey.",
+      "answer": "set"
+    }
+  },
+  {
+    "id": 12,
+    "original": "stop trying",
+    "target": "give up trying",
+    "meaning": "放弃",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He stopped trying.",
+      "target_sentence": "He ______ up trying.",
+      "answer": "gave"
+    }
+  },
+  {
+    "id": 13,
+    "original": "arrive at",
+    "target": "get to / reach",
+    "meaning": "到达",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "When did you arrive at school?",
+      "target_sentence": "When did you ______ to school?",
+      "answer": "get"
+    }
+  },
+  {
+    "id": 14,
+    "original": "solve problems",
+    "target": "deal with / work out problems",
+    "meaning": "解决/处理",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "I can solve this problem.",
+      "target_sentence": "I can ______ with this problem.",
+      "answer": "deal"
+    }
+  },
+  {
+    "id": 15,
+    "original": "find out",
+    "target": "discover",
+    "meaning": "查明/发现",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "We found out the truth.",
+      "target_sentence": "We ______ the truth.",
+      "answer": "discovered"
+    }
+  },
+  {
+    "id": 16,
+    "original": "show a view",
+    "target": "display / present a view",
+    "meaning": "展示",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "The museum shows many things.",
+      "target_sentence": "The museum ______ many things.",
+      "answer": "displays"
+    }
+  },
+  {
+    "id": 17,
+    "original": "communicate",
+    "target": "keep in touch with",
+    "meaning": "交流/保持联系",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Please communicate with them.",
+      "target_sentence": "Please ______ in touch with them.",
+      "answer": "keep"
+    }
+  },
+  {
+    "id": 18,
+    "original": "need time",
+    "target": "require / ask for time",
+    "meaning": "需要/要求",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "The project needs time.",
+      "target_sentence": "The project ______ much time.",
+      "answer": "requires"
+    }
+  },
+  {
+    "id": 19,
+    "original": "buy products",
+    "target": "pay for / purchase products",
+    "meaning": "购买",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Don't buy animal products.",
+      "target_sentence": "Don't ______ for animal products.",
+      "answer": "pay"
+    }
+  },
+  {
+    "id": 20,
+    "original": "prepare for",
+    "target": "get ready for",
+    "meaning": "准备",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "She prepares for the trip.",
+      "target_sentence": "She ______ ready for the trip.",
+      "answer": "gets"
+    }
+  },
+  {
+    "id": 21,
+    "original": "examine carefully",
+    "target": "check / look over carefully",
+    "meaning": "检查",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "You must examine the paper.",
+      "target_sentence": "You must ______ / (look) over the paper.",
+      "answer": "check"
+    }
+  },
+  {
+    "id": 22,
+    "original": "reduce waste",
+    "target": "cut down / decrease waste",
+    "meaning": "减少",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "We should reduce waste.",
+      "target_sentence": "We should ______ down waste.",
+      "answer": "cut"
+    }
+  },
+  {
+    "id": 23,
+    "original": "increase",
+    "target": "go up / grow",
+    "meaning": "增加/上升",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "The number increases every year.",
+      "target_sentence": "The number ______ up every year.",
+      "answer": "goes"
+    }
+  },
+  {
+    "id": 24,
+    "original": "refuse an offer",
+    "target": "turn down an offer",
+    "meaning": "拒绝",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He refused the invitation.",
+      "target_sentence": "He ______ down the invitation.",
+      "answer": "turned"
+    }
+  },
+  {
+    "id": 25,
+    "original": "delay a plan",
+    "target": "put off / postpone a plan",
+    "meaning": "推迟",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "They delayed the sports meet.",
+      "target_sentence": "They ______ off the sports meet.",
+      "answer": "put"
+    }
+  },
+  {
+    "id": 26,
+    "original": "cancel",
+    "target": "call off",
+    "meaning": "取消",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "The match was canceled.",
+      "target_sentence": "The match was ______ off.",
+      "answer": "called"
+    }
+  },
+  {
+    "id": 27,
+    "original": "save money",
+    "target": "set aside / keep money",
+    "meaning": "节省/保留",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "You should save money.",
+      "target_sentence": "You should ______ aside money.",
+      "answer": "set"
+    }
+  },
+  {
+    "id": 28,
+    "original": "discuss",
+    "target": "talk about",
+    "meaning": "讨论",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "We discussed the plan.",
+      "target_sentence": "We ______ about the plan.",
+      "answer": "talked"
+    }
+  },
+  {
+    "id": 29,
+    "original": "consider",
+    "target": "take into account",
+    "meaning": "考虑",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Please consider my advice.",
+      "target_sentence": "Please ______ my advice into account.",
+      "answer": "take"
+    }
+  },
+  {
+    "id": 30,
+    "original": "encourage",
+    "target": "give support to / inspire",
+    "meaning": "鼓励/激励",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "She encourages me to try.",
+      "target_sentence": "She gives ______ to me to try.",
+      "answer": "support"
+    }
+  },
+  {
+    "id": 31,
+    "original": "achieve a dream",
+    "target": "fulfill / reach a dream",
+    "meaning": "实现",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "I want to achieve my dream.",
+      "target_sentence": "I want to ______ my dream.",
+      "answer": "fulfill"
+    }
+  },
+  {
+    "id": 32,
+    "original": "travel mountains",
+    "target": "go on a journey through mountains",
+    "meaning": "旅行",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He traveled to the southwest.",
+      "target_sentence": "He went on a ______ to the southwest.",
+      "answer": "journey"
+    }
+  },
+  {
+    "id": 33,
+    "original": "advise",
+    "target": "give advice / suggest",
+    "meaning": "建议",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He advised me to study hard.",
+      "target_sentence": "He gave me ______ to study hard.",
+      "answer": "advice"
+    }
+  },
+  {
+    "id": 34,
+    "original": "respect roots",
+    "target": "look up to / value roots",
+    "meaning": "尊重/珍视",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "People respect their roots.",
+      "target_sentence": "People ______ up to their roots.",
+      "answer": "look"
+    }
+  },
+  {
+    "id": 35,
+    "original": "continue reading",
+    "target": "go on reading",
+    "meaning": "继续",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He continued reading.",
+      "target_sentence": "He ______ on reading.",
+      "answer": "went"
+    }
+  },
+  {
+    "id": 36,
+    "original": "agree",
+    "target": "reach an agreement",
+    "meaning": "达成一致",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "They agreed with each other.",
+      "target_sentence": "They reached an ______.",
+      "answer": "agreement"
+    }
+  },
+  {
+    "id": 37,
+    "original": "help others",
+    "target": "give a hand to others",
+    "meaning": "帮助",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He helps his neighbors.",
+      "target_sentence": "He gives a ______ to his neighbors.",
+      "answer": "hand"
+    }
+  },
+  {
+    "id": 38,
+    "original": "return a book",
+    "target": "give back a book",
+    "meaning": "归还",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He returned the book.",
+      "target_sentence": "He ______ back the book.",
+      "answer": "gave"
+    }
+  },
+  {
+    "id": 39,
+    "original": "win a game",
+    "target": "beat / defeat an opponent",
+    "meaning": "赢得/击败",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Our team won the game.",
+      "target_sentence": "Our team ______ the other team.",
+      "answer": "beat"
+    }
+  },
+  {
+    "id": 40,
+    "original": "understand",
+    "target": "catch one's meaning / follow",
+    "meaning": "理解",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "I understand what you mean.",
+      "target_sentence": "I ______ what you mean.",
+      "answer": "follow"
+    }
+  },
+  {
+    "id": 41,
+    "original": "change into",
+    "target": "turn into / transform",
+    "meaning": "变成/转化",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Ice changes into water.",
+      "target_sentence": "Ice ______ into water.",
+      "answer": "turns"
+    }
+  },
+  {
+    "id": 42,
+    "original": "collect items",
+    "target": "pick up / gather items",
+    "meaning": "收集",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "She collects old coins.",
+      "target_sentence": "She ______ up / (gathers) old coins.",
+      "answer": "picks"
+    }
+  },
+  {
+    "id": 43,
+    "original": "influence",
+    "target": "have an effect on",
+    "meaning": "影响",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Smoking influences health.",
+      "target_sentence": "Smoking has an ______ on health.",
+      "answer": "effect"
+    }
+  },
+  {
+    "id": 44,
+    "original": "succeed",
+    "target": "manage to / achieve success",
+    "meaning": "成功做",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He succeeded at last.",
+      "target_sentence": "He achieved ______ at last.",
+      "answer": "success"
+    }
+  },
+  {
+    "id": 45,
+    "original": "appear",
+    "target": "show up / turn up",
+    "meaning": "出现/露面",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "A new shop appeared.",
+      "target_sentence": "A new shop ______ up.",
+      "answer": "showed"
+    }
+  },
+  {
+    "id": 46,
+    "original": "ensure safety",
+    "target": "make sure to be safe",
+    "meaning": "确保",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Please ensure your safety.",
+      "target_sentence": "Please ______ sure to be safe.",
+      "answer": "make"
+    }
+  },
+  {
+    "id": 47,
+    "original": "wait",
+    "target": "wait for",
+    "meaning": "等待",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "I'm waiting for the bus.",
+      "target_sentence": "I ______ the bus.",
+      "answer": "await"
+    }
+  },
+  {
+    "id": 48,
+    "original": "want",
+    "target": "feel like / would like",
+    "meaning": "想要",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "I want to go home.",
+      "target_sentence": "I ______ like to go home.",
+      "answer": "would"
+    }
+  },
+  {
+    "id": 49,
+    "original": "guess",
+    "target": "take a guess",
+    "meaning": "猜测",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Can you guess the riddle?",
+      "target_sentence": "Can you ______ a guess at the riddle?",
+      "answer": "take"
+    }
+  },
+  {
+    "id": 50,
+    "original": "graduate",
+    "target": "finish school/college",
+    "meaning": "毕业",
+    "category": "动作逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He graduated in 2024.",
+      "target_sentence": "After ______ in 2024...",
+      "answer": "graduation"
+    }
+  },
+  {
+    "id": 51,
+    "original": "important",
+    "target": "be of great importance / key",
+    "meaning": "重要的/关键的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Water is important to us.",
+      "target_sentence": "Water is of great ______ to us.",
+      "answer": "importance"
+    }
+  },
+  {
+    "id": 52,
+    "original": "difficult",
+    "target": "be a challenge / be hard",
+    "meaning": "困难的/挑战性的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "The task is difficult.",
+      "target_sentence": "The task is a ______ for us.",
+      "answer": "challenge"
+    }
+  },
+  {
+    "id": 53,
+    "original": "famous",
+    "target": "well-known / be noted for",
+    "meaning": "出名的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Altay is famous for its snow.",
+      "target_sentence": "Altay is ______ for its snow.",
+      "answer": "noted"
+    }
+  },
+  {
+    "id": 54,
+    "original": "enough light",
+    "target": "plenty of light",
+    "meaning": "足够的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "There isn't enough light.",
+      "target_sentence": "There isn't ______ of light.",
+      "answer": "plenty"
+    }
+  },
+  {
+    "id": 55,
+    "original": "popular",
+    "target": "be in fashion / be a must-go",
+    "meaning": "受欢迎的/必去的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Skiing is popular in Altay.",
+      "target_sentence": "Skiing is in ______ in Altay.",
+      "answer": "fashion"
+    }
+  },
+  {
+    "id": 56,
+    "original": "good quality",
+    "target": "be of high quality / wonderful",
+    "meaning": "质量好的/极好的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "They produce good quality silk.",
+      "target_sentence": "They produce silk of high ______.",
+      "answer": "quality"
+    }
+  },
+  {
+    "id": 57,
+    "original": "rich family",
+    "target": "be wealthy",
+    "meaning": "富有的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He was born in a rich family.",
+      "target_sentence": "He was born in a ______ family.",
+      "answer": "wealthy"
+    }
+  },
+  {
+    "id": 58,
+    "original": "poor farmer",
+    "target": "short of money",
+    "meaning": "贫穷的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He was once a poor farmer.",
+      "target_sentence": "He was once ______ of money as a farmer.",
+      "answer": "short"
+    }
+  },
+  {
+    "id": 59,
+    "original": "clever / smart",
+    "target": "be bright / be wise",
+    "meaning": "聪明的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Wang is very clever.",
+      "target_sentence": "Wang is a ______ student.",
+      "answer": "wise"
+    }
+  },
+  {
+    "id": 60,
+    "original": "kind / friendly",
+    "target": "be helpful / warm-hearted",
+    "meaning": "友善的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "The people there are kind.",
+      "target_sentence": "The people there are ______-hearted.",
+      "answer": "warm"
+    }
+  },
+  {
+    "id": 61,
+    "original": "sad (feeling)",
+    "target": "be in low spirits",
+    "meaning": "难过的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "People feel sad at Qingming.",
+      "target_sentence": "People are in low ______ at Qingming.",
+      "answer": "spirits"
+    }
+  },
+  {
+    "id": 62,
+    "original": "surprised",
+    "target": "be amazed / be shocked",
+    "meaning": "惊讶的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "I was surprised at the news.",
+      "target_sentence": "I was ______ at the news.",
+      "answer": "amazed"
+    }
+  },
+  {
+    "id": 63,
+    "original": "cheap",
+    "target": "at a low price / inexpensive",
+    "meaning": "便宜的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "The tickets are cheap.",
+      "target_sentence": "The tickets are at a low ______.",
+      "answer": "price"
+    }
+  },
+  {
+    "id": 64,
+    "original": "fast / quick",
+    "target": "in a hurry / rapid",
+    "meaning": "快速的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He finished the work fast.",
+      "target_sentence": "He finished the work in a ______.",
+      "answer": "hurry"
+    }
+  },
+  {
+    "id": 65,
+    "original": "scared",
+    "target": "be afraid of / frightened",
+    "meaning": "害怕的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "The boy is scared of dogs.",
+      "target_sentence": "The boy is ______ of dogs.",
+      "answer": "afraid"
+    }
+  },
+  {
+    "id": 66,
+    "original": "rude",
+    "target": "not polite / impolite",
+    "meaning": "无礼的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Phubbing is rude to others.",
+      "target_sentence": "Phubbing is not ______ to others.",
+      "answer": "polite"
+    }
+  },
+  {
+    "id": 67,
+    "original": "common",
+    "target": "ordinary / usual",
+    "meaning": "常见的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Phubbing is a common problem.",
+      "target_sentence": "Phubbing is an ______ problem.",
+      "answer": "ordinary"
+    }
+  },
+  {
+    "id": 68,
+    "original": "trustworthy",
+    "target": "reliable / believable",
+    "meaning": "可信的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "These portraits are trustworthy.",
+      "target_sentence": "These portraits are ______.",
+      "answer": "reliable"
+    }
+  },
+  {
+    "id": 69,
+    "original": "special",
+    "target": "unique / unusual",
+    "meaning": "特别的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Qingtuan is special food.",
+      "target_sentence": "Qingtuan is ______ food.",
+      "answer": "unusual"
+    }
+  },
+  {
+    "id": 70,
+    "original": "meaningful",
+    "target": "be of value",
+    "meaning": "有意义的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "The diary was meaningful.",
+      "target_sentence": "The diary was of ______.",
+      "answer": "value"
+    }
+  },
+  {
+    "id": 71,
+    "original": "filial son",
+    "target": "be respectful to parents",
+    "meaning": "孝顺的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Xu was a filial son.",
+      "target_sentence": "Xu was ______ to his parents.",
+      "answer": "respectful"
+    }
+  },
+  {
+    "id": 72,
+    "original": "gentle",
+    "target": "be soft / be kind",
+    "meaning": "温顺的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Giraffes are gentle animals.",
+      "target_sentence": "Giraffes are ______ animals.",
+      "answer": "kind"
+    }
+  },
+  {
+    "id": 73,
+    "original": "unforgettable",
+    "target": "memorable",
+    "meaning": "难忘的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "The visit was unforgettable.",
+      "target_sentence": "The visit was ______.",
+      "answer": "memorable"
+    }
+  },
+  {
+    "id": 74,
+    "original": "tiring",
+    "target": "exhausting",
+    "meaning": "累人的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Cleaning up can be tiring.",
+      "target_sentence": "Cleaning up can be ______.",
+      "answer": "exhausting"
+    }
+  },
+  {
+    "id": 75,
+    "original": "confident",
+    "target": "be sure of oneself",
+    "meaning": "自信的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Help children become confident.",
+      "target_sentence": "Help children be ______ of themselves.",
+      "answer": "sure"
+    }
+  },
+  {
+    "id": 76,
+    "original": "skilled",
+    "target": "professional / expert",
+    "meaning": "熟练的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Workers must be skilled.",
+      "target_sentence": "Workers must be ______.",
+      "answer": "professional"
+    }
+  },
+  {
+    "id": 77,
+    "original": "delicious food",
+    "target": "tasty food",
+    "meaning": "美味佳肴",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "There is delicious food here.",
+      "target_sentence": "There is ______ food here.",
+      "answer": "tasty"
+    }
+  },
+  {
+    "id": 78,
+    "original": "fresh fruit",
+    "target": "newly produced",
+    "meaning": "新鲜的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "You can enjoy fresh fruit.",
+      "target_sentence": "The fruit is ______ produced.",
+      "answer": "newly"
+    }
+  },
+  {
+    "id": 79,
+    "original": "convenient",
+    "target": "easy to get to",
+    "meaning": "方便的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Transportation is convenient.",
+      "target_sentence": "It is ______ to get to the city.",
+      "answer": "easy"
+    }
+  },
+  {
+    "id": 80,
+    "original": "historical",
+    "target": "ancient",
+    "meaning": "古老的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "It is a historical city.",
+      "target_sentence": "It is an ______ city.",
+      "answer": "ancient"
+    }
+  },
+  {
+    "id": 81,
+    "original": "powerful",
+    "target": "strong",
+    "meaning": "强有力的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Soldiers were powerful.",
+      "target_sentence": "Soldiers were very ______.",
+      "answer": "strong"
+    }
+  },
+  {
+    "id": 82,
+    "original": "unusual image",
+    "target": "different image",
+    "meaning": "不同的图像",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "It is an unusual image.",
+      "target_sentence": "It is a ______ image.",
+      "answer": "different"
+    }
+  },
+  {
+    "id": 83,
+    "original": "different",
+    "target": "not the same / various",
+    "meaning": "各种各样的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Names are different.",
+      "target_sentence": "Names are not the ______.",
+      "answer": "same"
+    }
+  },
+  {
+    "id": 84,
+    "original": "cool",
+    "target": "trendy / fashionable",
+    "meaning": "酷/时尚",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Backpackers are cool.",
+      "target_sentence": "Backpackers are ______.",
+      "answer": "fashionable"
+    }
+  },
+  {
+    "id": 85,
+    "original": "main part",
+    "target": "major part",
+    "meaning": "主要部分",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "It is the main part of his job.",
+      "target_sentence": "It is the ______ part of his job.",
+      "answer": "major"
+    }
+  },
+  {
+    "id": 86,
+    "original": "necessary",
+    "target": "essential",
+    "meaning": "必要的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "It is necessary to keep learning.",
+      "target_sentence": "It is ______ to keep learning.",
+      "answer": "essential"
+    }
+  },
+  {
+    "id": 87,
+    "original": "intelligent",
+    "target": "bright",
+    "meaning": "聪慧的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Top students are intelligent.",
+      "target_sentence": "Top students are ______.",
+      "answer": "bright"
+    }
+  },
+  {
+    "id": 88,
+    "original": "amazing",
+    "target": "wonderful",
+    "meaning": "令人惊叹的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "It was an amazing visit.",
+      "target_sentence": "It was a ______ visit.",
+      "answer": "wonderful"
+    }
+  },
+  {
+    "id": 89,
+    "original": "bored with",
+    "target": "tired of",
+    "meaning": "厌烦的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Vegetables were bored with it.",
+      "target_sentence": "Vegetables were ______ of it.",
+      "answer": "tired"
+    }
+  },
+  {
+    "id": 90,
+    "original": "addicted to",
+    "target": "hooked on",
+    "meaning": "沉溺的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Children are addicted to phones.",
+      "target_sentence": "Children are ______ on phones.",
+      "answer": "hooked"
+    }
+  },
+  {
+    "id": 91,
+    "original": "successful",
+    "target": "manage to / achieve success",
+    "meaning": "成功的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He was successful at last.",
+      "target_sentence": "He ______ to succeed at last.",
+      "answer": "managed"
+    }
+  },
+  {
+    "id": 92,
+    "original": "healthy",
+    "target": "fit / strong",
+    "meaning": "健康的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Sports make us healthy.",
+      "target_sentence": "Sports make us ______ and fit.",
+      "answer": "strong"
+    }
+  },
+  {
+    "id": 93,
+    "original": "active",
+    "target": "energetic",
+    "meaning": "积极活跃的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Students are active in sports.",
+      "target_sentence": "Students are ______ in sports.",
+      "answer": "energetic"
+    }
+  },
+  {
+    "id": 94,
+    "original": "proud of",
+    "target": "take pride in",
+    "meaning": "以...为傲",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "We are proud of our culture.",
+      "target_sentence": "We take ______ in our culture.",
+      "answer": "pride"
+    }
+  },
+  {
+    "id": 95,
+    "original": "pleased",
+    "target": "with pleasure",
+    "meaning": "感到高兴/荣幸",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "I'm pleased to help you.",
+      "target_sentence": "I will help you with ______.",
+      "answer": "pleasure"
+    }
+  },
+  {
+    "id": 96,
+    "original": "happy",
+    "target": "joyful",
+    "meaning": "快乐的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "It's a happy time for families.",
+      "target_sentence": "It's a ______ time for families.",
+      "answer": "joyful"
+    }
+  },
+  {
+    "id": 97,
+    "original": "wonderful place",
+    "target": "beautiful place",
+    "meaning": "美丽的地方",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "It's a wonderful place.",
+      "target_sentence": "It's a ______ place.",
+      "answer": "beautiful"
+    }
+  },
+  {
+    "id": 98,
+    "original": "greatest",
+    "target": "most important",
+    "meaning": "最伟大的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "It's my greatest joy.",
+      "target_sentence": "It's the most ______ joy for me.",
+      "answer": "important"
+    }
+  },
+  {
+    "id": 99,
+    "original": "traditional",
+    "target": "long-standing",
+    "meaning": "传统的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "It's a traditional holiday.",
+      "target_sentence": "It's a ______-standing holiday.",
+      "answer": "long"
+    }
+  },
+  {
+    "id": 100,
+    "original": "excellent",
+    "target": "outstanding",
+    "meaning": "卓越的",
+    "category": "形容词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Lyu is an excellent actor.",
+      "target_sentence": "Lyu is an ______ actor.",
+      "answer": "outstanding"
+    }
+  },
+  {
+    "id": 101,
+    "original": "success",
+    "target": "achieve success",
+    "meaning": "获得成功",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Wang succeeded finally.",
+      "target_sentence": "Wang achieved ______ finally.",
+      "answer": "success"
+    }
+  },
+  {
+    "id": 102,
+    "original": "decision",
+    "target": "make a decision",
+    "meaning": "做决定",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Zhou decided to build it.",
+      "target_sentence": "Zhou made a ______ to build it.",
+      "answer": "decision"
+    }
+  },
+  {
+    "id": 103,
+    "original": "choice",
+    "target": "make a choice",
+    "meaning": "做选择",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "You can choose what to read.",
+      "target_sentence": "You can make a ______ of what to read.",
+      "answer": "choice"
+    }
+  },
+  {
+    "id": 104,
+    "original": "contribution",
+    "target": "make a contribution to",
+    "meaning": "做出贡献",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He contributed to his hometown.",
+      "target_sentence": "He made a ______ to his hometown.",
+      "answer": "contribution"
+    }
+  },
+  {
+    "id": 105,
+    "original": "progress",
+    "target": "make progress",
+    "meaning": "取得进步",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Students progressed quickly.",
+      "target_sentence": "Students made great ______ quickly.",
+      "answer": "progress"
+    }
+  },
+  {
+    "id": 106,
+    "original": "suggestion",
+    "target": "give a suggestion",
+    "meaning": "提建议",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "I suggest trying new food.",
+      "target_sentence": "I give a ______ of trying new food.",
+      "answer": "suggestion"
+    }
+  },
+  {
+    "id": 107,
+    "original": "advice",
+    "target": "give advice / offer advice",
+    "meaning": "给建议",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Teachers advised us to work hard.",
+      "target_sentence": "Teachers offered ______ to us to work hard.",
+      "answer": "advice"
+    }
+  },
+  {
+    "id": 108,
+    "original": "introduction",
+    "target": "give an introduction",
+    "meaning": "做介绍",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He introduced himself.",
+      "target_sentence": "He gave an ______ of himself.",
+      "answer": "introduction"
+    }
+  },
+  {
+    "id": 109,
+    "original": "explanation",
+    "target": "give an explanation",
+    "meaning": "做出解释",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He explained the reason.",
+      "target_sentence": "He gave an ______ of the reason.",
+      "answer": "explanation"
+    }
+  },
+  {
+    "id": 110,
+    "original": "description",
+    "target": "give a description of",
+    "meaning": "进行描述",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "I described what I saw.",
+      "target_sentence": "I gave a ______ of what I saw.",
+      "answer": "description"
+    }
+  },
+  {
+    "id": 111,
+    "original": "action",
+    "target": "take action",
+    "meaning": "采取行动",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Everyone should act now.",
+      "target_sentence": "Everyone should take ______ now.",
+      "answer": "action"
+    }
+  },
+  {
+    "id": 112,
+    "original": "impression",
+    "target": "leave an impression on",
+    "meaning": "留下印象",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "The trip impressed me deeply.",
+      "target_sentence": "The trip left an ______ on me.",
+      "answer": "impression"
+    }
+  },
+  {
+    "id": 113,
+    "original": "performance",
+    "target": "give a performance",
+    "meaning": "进行表演",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "She performed on the stage.",
+      "target_sentence": "She gave a great ______ on the stage.",
+      "answer": "performance"
+    }
+  },
+  {
+    "id": 114,
+    "original": "agreement",
+    "target": "reach an agreement",
+    "meaning": "达成协议",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "They agreed to work together.",
+      "target_sentence": "They reached an ______ to work together.",
+      "answer": "agreement"
+    }
+  },
+  {
+    "id": 115,
+    "original": "difference",
+    "target": "make a difference",
+    "meaning": "起到作用/差别",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Cultural differences exist.",
+      "target_sentence": "It makes a ______ to have different cultures.",
+      "answer": "difference"
+    }
+  },
+  {
+    "id": 116,
+    "original": "effort",
+    "target": "make an effort",
+    "meaning": "做出努力",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He tried hard to study.",
+      "target_sentence": "He made an ______ to study.",
+      "answer": "effort"
+    }
+  },
+  {
+    "id": 117,
+    "original": "discovery",
+    "target": "make a discovery",
+    "meaning": "有发现",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Scientists discovered it.",
+      "target_sentence": "Scientists made a ______ of it.",
+      "answer": "discovery"
+    }
+  },
+  {
+    "id": 118,
+    "original": "growth",
+    "target": "local growth",
+    "meaning": "增长",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "The library grows quickly.",
+      "target_sentence": "This helps the library's ______ quickly.",
+      "answer": "growth"
+    }
+  },
+  {
+    "id": 119,
+    "original": "failure",
+    "target": "huge failure",
+    "meaning": "失败",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He failed in the test.",
+      "target_sentence": "The test was a huge ______ for him.",
+      "answer": "failure"
+    }
+  },
+  {
+    "id": 120,
+    "original": "loss",
+    "target": "suffer a loss",
+    "meaning": "遭受损失",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Farmers lost their parents.",
+      "target_sentence": "Farmers suffered a heavy ______ of their parents.",
+      "answer": "loss"
+    }
+  },
+  {
+    "id": 121,
+    "original": "trip / journey",
+    "target": "go on a journey",
+    "meaning": "进行旅行",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "I traveled to Xi'an last year.",
+      "target_sentence": "I went on a ______ to Xi'an last year.",
+      "answer": "journey"
+    }
+  },
+  {
+    "id": 122,
+    "original": "visit",
+    "target": "pay a visit to",
+    "meaning": "参观/访问",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "I visited Altay in summer.",
+      "target_sentence": "I paid a ______ to Altay in summer.",
+      "answer": "visit"
+    }
+  },
+  {
+    "id": 123,
+    "original": "help",
+    "target": "give a hand",
+    "meaning": "给予帮助",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He helped the children.",
+      "target_sentence": "He gave a ______ to the children.",
+      "answer": "hand"
+    }
+  },
+  {
+    "id": 124,
+    "original": "pride",
+    "target": "take pride in",
+    "meaning": "以...为傲",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "We are proud of our culture.",
+      "target_sentence": "We take ______ in our culture.",
+      "answer": "pride"
+    }
+  },
+  {
+    "id": 125,
+    "original": "view",
+    "target": "enjoy the scenery",
+    "meaning": "赏景",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "We saw the beautiful view.",
+      "target_sentence": "We enjoyed the ______ of the hill.",
+      "answer": "scenery"
+    }
+  },
+  {
+    "id": 126,
+    "original": "future",
+    "target": "what the future holds",
+    "meaning": "未来发展",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "We don't know the future.",
+      "target_sentence": "We don't know what the ______ holds.",
+      "answer": "future"
+    }
+  },
+  {
+    "id": 127,
+    "original": "dream",
+    "target": "follow one's dream",
+    "meaning": "追逐梦想",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "She dreamed of being an astronaut.",
+      "target_sentence": "She followed her ______ of being an astronaut.",
+      "answer": "dream"
+    }
+  },
+  {
+    "id": 128,
+    "original": "experience",
+    "target": "gain experience",
+    "meaning": "获得经验",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He experienced many things.",
+      "target_sentence": "He gained much ______ from the trip.",
+      "answer": "experience"
+    }
+  },
+  {
+    "id": 129,
+    "original": "understanding",
+    "target": "gain understanding",
+    "meaning": "获得理解",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He understood the story.",
+      "target_sentence": "He gained an ______ of the story.",
+      "answer": "understanding"
+    }
+  },
+  {
+    "id": 130,
+    "original": "skill",
+    "target": "develop skills",
+    "meaning": "培养技能",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Voice actors learned skills.",
+      "target_sentence": "Voice actors developed professional ______.",
+      "answer": "skills"
+    }
+  },
+  {
+    "id": 131,
+    "original": "attention",
+    "target": "pay attention to",
+    "meaning": "关注",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "She attended to the new fields.",
+      "target_sentence": "She paid ______ to the new fields.",
+      "answer": "attention"
+    }
+  },
+  {
+    "id": 132,
+    "original": "interest",
+    "target": "show interest in",
+    "meaning": "表现出兴趣",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Visitors are interested in Altay.",
+      "target_sentence": "Visitors show great ______ in Altay.",
+      "answer": "interest"
+    }
+  },
+  {
+    "id": 133,
+    "original": "habit",
+    "target": "form a habit",
+    "meaning": "养成习惯",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He exercises every day.",
+      "target_sentence": "He forms a ______ of exercising every day.",
+      "answer": "habit"
+    }
+  },
+  {
+    "id": 134,
+    "original": "safety",
+    "target": "ensure safety",
+    "meaning": "确保安全",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "We must be safe.",
+      "target_sentence": "We must ensure our ______.",
+      "answer": "safety"
+    }
+  },
+  {
+    "id": 135,
+    "original": "opinion",
+    "target": "give an opinion",
+    "meaning": "发表观点",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Hanson thinks phubbing is bad.",
+      "target_sentence": "Hanson gives his ______ on phubbing.",
+      "answer": "opinion"
+    }
+  },
+  {
+    "id": 136,
+    "original": "advantage",
+    "target": "have an advantage",
+    "meaning": "具备优势",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Different sports are good.",
+      "target_sentence": "Different sports have different ______.",
+      "answer": "advantages"
+    }
+  },
+  {
+    "id": 137,
+    "original": "teamwork",
+    "target": "build teamwork",
+    "meaning": "建立团队合作",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Playing ball needs cooperation.",
+      "target_sentence": "Playing ball helps build ______.",
+      "answer": "teamwork"
+    }
+  },
+  {
+    "id": 138,
+    "original": "tradition",
+    "target": "follow tradition",
+    "meaning": "遵循传统",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "We follow our traditions.",
+      "target_sentence": "We follow our ______ to honor ancestors.",
+      "answer": "tradition"
+    }
+  },
+  {
+    "id": 139,
+    "original": "value",
+    "target": "meaningful materials",
+    "meaning": "有价值的材料",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "The book is meaningful.",
+      "target_sentence": "The book provides ______ for research.",
+      "answer": "materials"
+    }
+  },
+  {
+    "id": 140,
+    "original": "symbol",
+    "target": "represent / symbolize",
+    "meaning": "象征",
+    "category": "名词逻辑的转化",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Skiing stands for Altay.",
+      "target_sentence": "Skiing is the ______ of Altay.",
+      "answer": "symbol"
+    }
+  },
+  {
+    "id": 141,
+    "original": "because",
+    "target": "because of / due to",
+    "meaning": "连词 → 短语",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Animals are in danger because people cut trees.",
+      "target_sentence": "Animals are in danger ______ of human activities.",
+      "answer": "because"
+    }
+  },
+  {
+    "id": 142,
+    "original": "so",
+    "target": "as a result / therefore",
+    "meaning": "结果转换",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "I felt sad, so I didn't want to play.",
+      "target_sentence": "I felt sad. ______, I didn't want to play.",
+      "answer": "Therefore"
+    }
+  },
+  {
+    "id": 143,
+    "original": "but",
+    "target": "however / on the other hand",
+    "meaning": "转折转换",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "It's small, but it's full of books.",
+      "target_sentence": "It's small. ______, it's full of books.",
+      "answer": "However"
+    }
+  },
+  {
+    "id": 144,
+    "original": "also",
+    "target": "what's more / besides",
+    "meaning": "递进转换",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "It has fruits, and it also has music.",
+      "target_sentence": "It has fruits. ______, it has music.",
+      "answer": "Besides"
+    }
+  },
+  {
+    "id": 145,
+    "original": "first",
+    "target": "to begin with / at first",
+    "meaning": "顺序转换",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "First, we clean the tombs.",
+      "target_sentence": "To ______ with, we clean the tombs.",
+      "answer": "begin"
+    }
+  },
+  {
+    "id": 146,
+    "original": "finally",
+    "target": "in the end / at last",
+    "meaning": "总结转换",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Finally, they reached an agreement.",
+      "target_sentence": "At ______, they reached an agreement.",
+      "answer": "last"
+    }
+  },
+  {
+    "id": 147,
+    "original": "if",
+    "target": "as long as / in case",
+    "meaning": "假设转换",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "If you truly love it, give your all.",
+      "target_sentence": "As ______ as you love it, give your all.",
+      "answer": "long"
+    }
+  },
+  {
+    "id": 148,
+    "original": "although",
+    "target": "even though / despite",
+    "meaning": "让步转换",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Although names differ, the meaning is same.",
+      "target_sentence": "______ though names differ, the meaning is same.",
+      "answer": "Even"
+    }
+  },
+  {
+    "id": 149,
+    "original": "since",
+    "target": "now that / because",
+    "meaning": "既然/因为",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Since most have phones, phubbing is common.",
+      "target_sentence": "______ that most have phones, phubbing is common.",
+      "answer": "Now"
+    }
+  },
+  {
+    "id": 150,
+    "original": "like",
+    "target": "such as / for example",
+    "meaning": "举例转换",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "I saw lovely animals, like pandas.",
+      "target_sentence": "I saw lovely animals, ______ as pandas.",
+      "answer": "such"
+    }
+  },
+  {
+    "id": 151,
+    "original": "then",
+    "target": "after that",
+    "meaning": "顺承转换",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He joined the army, and then he founded a dynasty.",
+      "target_sentence": "After ______, he founded a dynasty.",
+      "answer": "that"
+    }
+  },
+  {
+    "id": 152,
+    "original": "until",
+    "target": "up to",
+    "meaning": "直到",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "They kept this until they were bored.",
+      "target_sentence": "They kept this ______ to the time they were bored.",
+      "answer": "up"
+    }
+  },
+  {
+    "id": 153,
+    "original": "when",
+    "target": "while / during",
+    "meaning": "时间转换",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "When I was in Southeast University...",
+      "target_sentence": "______ my time in Southeast University...",
+      "answer": "During"
+    }
+  },
+  {
+    "id": 154,
+    "original": "about",
+    "target": "when it comes to",
+    "meaning": "关于",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Talk about the tradition.",
+      "target_sentence": "When it ______ to the tradition...",
+      "answer": "comes"
+    }
+  },
+  {
+    "id": 155,
+    "original": "soon",
+    "target": "before long",
+    "meaning": "不久",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "They will show a view soon.",
+      "target_sentence": "They will show a view ______ long.",
+      "answer": "before"
+    }
+  },
+  {
+    "id": 156,
+    "original": "too",
+    "target": "as well",
+    "meaning": "也",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "The expert thinks phubbing is bad, too.",
+      "target_sentence": "The expert ______ well thinks phubbing is bad.",
+      "answer": "as"
+    }
+  },
+  {
+    "id": 157,
+    "original": "not only...but also",
+    "target": "both...and",
+    "meaning": "并列转换",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Not only children but also adults like it.",
+      "target_sentence": "______ children and adults like it.",
+      "answer": "Both"
+    }
+  },
+  {
+    "id": 158,
+    "original": "instead of",
+    "target": "rather than",
+    "meaning": "替代转换",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He used a phone instead of talking.",
+      "target_sentence": "He used a phone ______ than talking.",
+      "answer": "rather"
+    }
+  },
+  {
+    "id": 159,
+    "original": "maybe",
+    "target": "perhaps / probably",
+    "meaning": "可能性",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Maybe it's because we are bored.",
+      "target_sentence": "______ it's because we are bored.",
+      "answer": "Perhaps"
+    }
+  },
+  {
+    "id": 160,
+    "original": "next time",
+    "target": "on the next occasion",
+    "meaning": "下次",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "We will go there next time.",
+      "target_sentence": "We will go there on the next ______.",
+      "answer": "occasion"
+    }
+  },
+  {
+    "id": 161,
+    "original": "without doubt",
+    "target": "certainly",
+    "meaning": "毫无疑问",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Without doubt, she tried her best.",
+      "target_sentence": "______, she tried her best.",
+      "answer": "Certainly"
+    }
+  },
+  {
+    "id": 162,
+    "original": "according to",
+    "target": "as shown by",
+    "meaning": "依据转换",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "According to the guide, the museum is big.",
+      "target_sentence": "As ______ by the guide, the museum is big.",
+      "answer": "shown"
+    }
+  },
+  {
+    "id": 163,
+    "original": "in short",
+    "target": "in a word",
+    "meaning": "总之",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "In short, Qingming is a day of joy.",
+      "target_sentence": "In a ______, Qingming is a day of joy.",
+      "answer": "word"
+    }
+  },
+  {
+    "id": 164,
+    "original": "even so",
+    "target": "nevertheless",
+    "meaning": "尽管如此",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "It was difficult, even so, he didn't give up.",
+      "target_sentence": "It was difficult. ______, he didn't give up.",
+      "answer": "Nevertheless"
+    }
+  },
+  {
+    "id": 165,
+    "original": "whatever",
+    "target": "no matter what",
+    "meaning": "无论如何",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Whatever the reason is, it's a bad habit.",
+      "target_sentence": "No ______ what the reason is, it's a bad habit.",
+      "answer": "matter"
+    }
+  },
+  {
+    "id": 166,
+    "original": "besides",
+    "target": "as well as",
+    "meaning": "除...之外",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Besides kebabs, nang is also delicious.",
+      "target_sentence": "As ______ as kebabs, nang is also delicious.",
+      "answer": "well"
+    }
+  },
+  {
+    "id": 167,
+    "original": "lately",
+    "target": "recently",
+    "meaning": "最近",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Portrait has been changed lately.",
+      "target_sentence": "Portrait has been changed ______.",
+      "answer": "recently"
+    }
+  },
+  {
+    "id": 168,
+    "original": "so far",
+    "target": "up to now",
+    "meaning": "迄今为止",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "So far, the library has many readers.",
+      "target_sentence": "______ to now, the library has many readers.",
+      "answer": "Up"
+    }
+  },
+  {
+    "id": 169,
+    "original": "moreover",
+    "target": "what is more",
+    "meaning": "而且",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "It's a bad habit. Moreover, it's rude.",
+      "target_sentence": "It's a bad habit. What's ______, it's rude.",
+      "answer": "more"
+    }
+  },
+  {
+    "id": 170,
+    "original": "once",
+    "target": "long ago",
+    "meaning": "曾经",
+    "category": "逻辑词的替换",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Once there was a lovely field.",
+      "target_sentence": "A ______ time ago, there was a lovely field.",
+      "answer": "long"
+    }
+  },
+  {
+    "id": 171,
+    "original": "tangyuan / yuanxiao",
+    "target": "food",
+    "meaning": "饮食类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "People eat tangyuan or yuanxiao.",
+      "target_sentence": "People eat a special kind of ______ for the festival.",
+      "answer": "food"
+    }
+  },
+  {
+    "id": 172,
+    "original": "running / swimming",
+    "target": "sports",
+    "meaning": "活动类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "I like running and swimming.",
+      "target_sentence": "I like different ______ very much.",
+      "answer": "sports"
+    }
+  },
+  {
+    "id": 173,
+    "original": "train / bus / plane",
+    "target": "ways",
+    "meaning": "方式类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "You can get there by train or bus.",
+      "target_sentence": "There are many ______ to get to the city.",
+      "answer": "ways"
+    }
+  },
+  {
+    "id": 174,
+    "original": "pandas / antelopes",
+    "target": "animals",
+    "meaning": "生物类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "We saw pandas and antelopes.",
+      "target_sentence": "We saw many wild ______ there.",
+      "answer": "animals"
+    }
+  },
+  {
+    "id": 175,
+    "original": "kebabs / nang",
+    "target": "food",
+    "meaning": "特产类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "People in Urumqi love kebabs and nang.",
+      "target_sentence": "Local people enjoy delicious ______ in Urumqi.",
+      "answer": "food"
+    }
+  },
+  {
+    "id": 176,
+    "original": "hair / clothes",
+    "target": "looks",
+    "meaning": "外貌类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Their hair and clothes were different.",
+      "target_sentence": "They had different ______ from each other.",
+      "answer": "looks"
+    }
+  },
+  {
+    "id": 177,
+    "original": "May / summer",
+    "target": "time",
+    "meaning": "时间类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "It becomes warm in May or summer.",
+      "target_sentence": "It is a good ______ to visit Altay in warm seasons.",
+      "answer": "time"
+    }
+  },
+  {
+    "id": 178,
+    "original": "hiking / kite",
+    "target": "activities",
+    "meaning": "休闲类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "They go hiking or fly kites.",
+      "target_sentence": "People enjoy many outdoor ______ in spring.",
+      "answer": "activities"
+    }
+  },
+  {
+    "id": 179,
+    "original": "Uygur / Kazak",
+    "target": "minorities",
+    "meaning": "民族类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Many Uygur and Kazak people live there.",
+      "target_sentence": "Many ______ live together in harmony.",
+      "answer": "minorities"
+    }
+  },
+  {
+    "id": 180,
+    "original": "handicrafts / spices",
+    "target": "things",
+    "meaning": "商品类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "You can buy handicrafts and spices there.",
+      "target_sentence": "You can find many interesting ______ at the Bazaar.",
+      "answer": "things"
+    }
+  },
+  {
+    "id": 181,
+    "original": "checking news / games",
+    "target": "phubbing",
+    "meaning": "行为类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "People are checking news or playing games.",
+      "target_sentence": "______ is a common habit among people.",
+      "answer": "Phubbing"
+    }
+  },
+  {
+    "id": 182,
+    "original": "teachers / friends",
+    "target": "people",
+    "meaning": "人物类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He built the library with teachers and friends.",
+      "target_sentence": "Many ______ helped him build the library.",
+      "answer": "people"
+    }
+  },
+  {
+    "id": 183,
+    "original": "A4th, 5th or 6th",
+    "target": "April",
+    "meaning": "月份类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "It comes on April 4th, 5th or 6th.",
+      "target_sentence": "It usually falls on a day in ______.",
+      "answer": "April"
+    }
+  },
+  {
+    "id": 184,
+    "original": "streets / parks",
+    "target": "places",
+    "meaning": "场所类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "People walk on streets and in parks.",
+      "target_sentence": "There are many crowded ______ in the city.",
+      "answer": "places"
+    }
+  },
+  {
+    "id": 185,
+    "original": "Han / Ming",
+    "target": "dynasty",
+    "meaning": "历史类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "It started in the Han or Ming period.",
+      "target_sentence": "It has a history of more than one ______.",
+      "answer": "dynasty"
+    }
+  },
+  {
+    "id": 186,
+    "original": "branches / fruit",
+    "target": "food",
+    "meaning": "饮食类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Giraffes eat branches and fruit.",
+      "target_sentence": "Branches and fruit are common ______ for giraffes.",
+      "answer": "food"
+    }
+  },
+  {
+    "id": 187,
+    "original": "painting / tricks",
+    "target": "skills",
+    "meaning": "技能类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "She teaches them painting and tricks.",
+      "target_sentence": "Giraffes can learn different ______ from Amy.",
+      "answer": "skills"
+    }
+  },
+  {
+    "id": 188,
+    "original": "reading / homework",
+    "target": "learning",
+    "meaning": "学习类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Children are reading or doing homework.",
+      "target_sentence": "The library is full of children ______ there.",
+      "answer": "learning"
+    }
+  },
+  {
+    "id": 189,
+    "original": "mountains / valleys",
+    "target": "landforms",
+    "meaning": "地理类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "He travelled through mountains and valleys.",
+      "target_sentence": "He explored many different ______ in China.",
+      "answer": "landforms"
+    }
+  },
+  {
+    "id": 190,
+    "original": "musicians / officials",
+    "target": "products",
+    "meaning": "展品类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "There are musicians and officials in the tomb.",
+      "target_sentence": "You can see many terracotta ______ there.",
+      "answer": "products"
+    }
+  },
+  {
+    "id": 191,
+    "original": "saving paper / waste",
+    "target": "protection",
+    "meaning": "环保类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "We can help by saving paper and waste.",
+      "target_sentence": "We should take action for environmental ______.",
+      "answer": "protection"
+    }
+  },
+  {
+    "id": 192,
+    "original": "bored / worried",
+    "target": "feelings",
+    "meaning": "情绪类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "We do it because we are bored or worried.",
+      "target_sentence": "Phubbing may be caused by our bad ______.",
+      "answer": "feelings"
+    }
+  },
+  {
+    "id": 193,
+    "original": "Red Hill / Bazaar",
+    "target": "attractions",
+    "meaning": "景点类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "People visit Red Hill or the Grand Bazaar.",
+      "target_sentence": "There are many popular ______ in Urumqi.",
+      "answer": "attractions"
+    }
+  },
+  {
+    "id": 194,
+    "original": "sticky rice / plants",
+    "target": "materials",
+    "meaning": "构成类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Qingtuan is made with sticky rice and plants.",
+      "target_sentence": "Qingtuan is made of natural ______.",
+      "answer": "materials"
+    }
+  },
+  {
+    "id": 195,
+    "original": "who you are",
+    "target": "identity",
+    "meaning": "身份类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Who you are is only for you to decide.",
+      "target_sentence": "You are the only person to decide your ______.",
+      "answer": "identity"
+    }
+  },
+  {
+    "id": 196,
+    "original": "Qingtuan",
+    "target": "food",
+    "meaning": "食品类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "People eat Qingtuan during Qingming.",
+      "target_sentence": "People eat special ______ called Qingtuan.",
+      "answer": "food"
+    }
+  },
+  {
+    "id": 197,
+    "original": "100 pounds",
+    "target": "amount",
+    "meaning": "数量类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Giraffes eat 100 pounds of food every day.",
+      "target_sentence": "Giraffes need a large ______ of food daily.",
+      "answer": "amount"
+    }
+  },
+  {
+    "id": 198,
+    "original": "37 (years old)",
+    "target": "age",
+    "meaning": "年龄类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "Lyu Yanting is 37 years old.",
+      "target_sentence": "Lyu Yanting is an actor of a middle ______.",
+      "answer": "age"
+    }
+  },
+  {
+    "id": 199,
+    "original": "Southeast University",
+    "target": "school",
+    "meaning": "教育类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "She entered Southeast University in 2008.",
+      "target_sentence": "She started her studies at a top ______.",
+      "answer": "school"
+    }
+  },
+  {
+    "id": 200,
+    "original": "Shenzhou-19",
+    "target": "spaceship",
+    "meaning": "科技类",
+    "category": "归纳范畴",
+    "mastered": false,
+    "example": {
+      "original_sentence": "She flew into space in Shenzhou-19.",
+      "target_sentence": "She reached the space station in a ______.",
+      "answer": "spaceship"
+    }
+  }
+]
