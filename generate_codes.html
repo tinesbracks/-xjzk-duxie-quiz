@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>生成登录码 - 新疆中考英语读写题核心训练</title>
+    <title>生成登录码 - 中考英语读写题核心训练</title>
     <style>
         * {
             margin: 0;
@@ -206,7 +206,7 @@
                 return;
             }
             
-            const content = `新疆中考英语读写题核心训练系统 - 登录码\n\n生成时间：${new Date().toLocaleString()}\n共50个登录码（不区分大小写）\n\n${currentCodes.map((code, index) => `${index + 1}. ${code}`).join('\n')}`;
+            const content = `中考英语读写题核心训练系统 - 登录码\n\n生成时间：${new Date().toLocaleString()}\n共50个登录码（不区分大小写）\n\n${currentCodes.map((code, index) => `${index + 1}. ${code}`).join('\n')}`;
             
             const blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
             const url = URL.createObjectURL(blob);
